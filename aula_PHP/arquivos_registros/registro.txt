@@ -1,0 +1,18 @@
+Francisco Gomes| 30 |Belém,Pará | franciscogomes@gmail.com | 100 | 7 | 2000 |curriculo-pronto-pdf.svg
+João Francisco| 30 |Minas Gerais,MG | joaofrancisco@brmail.com | 30 | 9 | 100 |JOAO FRANCISCO.jpg
+Larissa Araújo Fernandez| 45 |Belém,Pará | larissaaraujofer@brmail.com | 34 | 15 | 15000 |LARISSA ARAUJO FERNANDES.jpg
+breno santos pereira| 23 |Rio de Janeiro,RJ | brenosantiss@gmail.com | 300 | 2 | 1000 |BRENO SANTOS PEREIRA.jpg
+Olivia vieira| 30 |Minas Gerais,MG | ola@grandesite.com | 100 | 8 | 24000 |OLIVIA VIEIRA.webp
+Ana Ferreira| 25 |Minas Gerais,MG | anaferreira@gmail.com | 150 | 8 | 1000 |ANA FERREIRA.jpg
+Carla Gomes Cunha| 30 |Curitiba,Paraná | carlagomes@brmail.com | 100 | 4 | 12000 |CALA GOMES.jpg
+Luiz Barbosa| 42 |Mato Grosso,MR | luizbarbosa@brmail.com | 200 | 8 | 4800 |luiz barbos.svg
+Carla Rodrigues| 27 |São Paulo | carlarodrigues@gmail.com | 80 | 8 | 1200 |CARLA RODRIGUES.jpg
+Gustavo Santos| 31 |Florianópolis,Santa Catarina | gustavosantos@gmail.com | 90 | 4 | 10800 |GUSTAVO.jpg
+Josue Francisco| 44 |rua nahyron | josuefrancisco@aluno.com | 10 | 2 | 600 |GUSTAVO.jpg
+funciona| 10 |aaaa | a@a.com | 10 | 10 | 3000 |CARLA RODRIGUES.jpg
+teste999| 999 |ada | ad@am.com | 19 | 10 | 5700 |LARISSA ARAUJO FERNANDES.jpg
+beatriz| 20 |rua parisi | bia@gmail.com | 1111 | 1 | 33330 |CALA GOMES.jpg
+vitor| 23 |rua parisi | vitor@gmail.com | 50 | 37 | 55500 |GUSTAVO.jpg 
+beatriz| 22 | | bia@gmail.com | 222 | 22 | 146520 |LARISSA ARAUJO FERNANDES.jpg 
+beatriz| 22 | | bia@gmail.com | 22 | 22 | 14520 |GUSTAVO.jpg 
+beatriz| 22 |rua parisi| bia@gmail.com | 22 | 222 | 146520 |ANA FERREIRA.jpg 

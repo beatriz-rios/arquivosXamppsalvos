@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(120, 226, 226);
+}
+h1{
+    padding: 0.5%;
+    text-align: center;
+}
+h3 , p{
+    padding: 0.5%;
+    text-align: center;
+    font-size: 21px;
+}
+div{
+    margin: 5%;
+    text-align: center;
+     justify-content:center;
+     
+}
+button, a{
+    background-color: white;
+width: 7%;
+     height: 30px;
+}
+.envio{
+  background-color: white;
+ width: 7%;
+ height: 30px;
+}
+fieldset{
+     background-color: azure;
+    padding: 10px;
+    border-radius: 12px;
+    margin: auto;
+    display: block;
+    width: fit-content;
+    max-width: 600px;
+}

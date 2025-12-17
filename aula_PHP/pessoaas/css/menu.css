@@ -1,0 +1,128 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* --- Fundo do Body (Preto) e Estrutura --- */
+body {
+    /* Fundo Preto */
+    background-color: #1a1a1a; 
+    color: #f4f4f4; 
+    padding: 20px;
+    min-height: 100vh; 
+    position: relative; /* Mantém a imagem posicionada */
+    
+    /* REMOVE a centralização do body */
+    display: block; 
+}
+
+h1 {
+    /* Mover o título para a direita para dar espaço à navbar lateral */
+    text-align:center;
+    text-decoration: underline; 
+    color: #e74c3c;
+    margin-bottom: 50px;
+    padding-right: 20px; /* Afasta o título da borda direita */
+    width: calc(100% - 220px); /* Ajusta a largura para evitar sobreposição com a navbar */
+}
+p {
+    text-decoration: underline;
+    text-align: center; /* Centraliza o texto */
+    color: #f4f4f4; /* Cor de destaque (contraste) */
+    font-size: 2.2vw; /* Tamanho da fonte dinâmico (responsivo, se ajusta com a largura da tela) */
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+    /* Centraliza o parágrafo na área de conteúdo */
+    width: calc(100% - 220px); /* Mesma largura do H1 para alinhamento */
+    margin-left: auto;
+    margin-right: auto;
+    
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.3); /* Efeito sutil de brilho */
+    transition: font-size 0.3s; /* Torna a mudança de fonte mais suave ao redimensionar */
+}
+/* --- Estilização e Posicionamento Lateral da Navbar (Vertical) --- */
+
+.nav {
+    /* POSICIONAMENTO LATERAL E CENTRALIZAÇÃO VERTICAL */
+    position: fixed; /* Fixa a navegação na janela de visualização */
+    top: 50%; /* Começa no meio da tela verticalmente */
+    left: 180px; /* Distância de 40px da borda esquerda (indo para o centro) */
+    transform: translateY(-50%); /* Ajusta 50% da PRÓPRIA altura para centralização perfeita */
+    
+    /* Layout */
+    width: 500px; /* Largura para o menu vertical */
+    max-width: 90%; 
+    margin: 0; /* Remove margens desnecessárias */
+    
+    background-color: #ffffff; 
+    border-radius: 15px; 
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Transforma a lista em vertical */
+    padding: 0;
+}
+
+.nav li {
+    flex-grow: 0;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0; /* Separador entre os itens */
+    border-color: #1a1a1a;
+}
+
+/* Remove o separador do último item */
+.nav li:last-child {
+    border-bottom: none;
+}
+
+
+/* --- Estilização dos Links (Botões do Menu) --- */
+
+.nav a {
+    display: block;
+    padding: 25px 20px; /* Mais padding para visual vertical */
+    
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    
+    /* Remove a linha divisória vertical anterior */
+    border-right: none; 
+}
+
+/* --- Efeitos Dinâmicos (Hover) --- */
+
+.nav a:hover {
+    background-color: #e74c3c; /* Vermelho */
+    color: #ffffff;
+    /* Transformação sutil */
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 2px 0 10px rgba(231, 76, 60, 0.6); 
+    border-radius: 20px; 
+}
+
+
+
+.background-image-formss{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 800px; 
+    height: auto;
+    opacity: 0.8; 
+    z-index: -1; 
+}
+

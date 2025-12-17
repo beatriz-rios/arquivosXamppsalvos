@@ -1,0 +1,301 @@
+body {
+    padding-top: 60px; /* Ajuste este valor se a altura da nav mudar */
+}
+
+
+/* Aumenta o comprimento dos inputs */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+    width: 99%;      /* comprimento maior */
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+/* ================================================= */
+/* === ESTILOS GERAIS E INPUTS ===================== */
+/* ================================================= */
+
+/* Garante que os inputs ocupem a largura desejada */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea {
+    width: 98%; 
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #0056b3; 
+    outline: none;
+}
+
+/* ================================================= */
+/* === ESTILOS GERAIS E AJUSTE DO BODY/H1 ========== */
+/* ================================================= */
+
+body {
+    padding-top: 60px; /* GARANTE QUE O H1 NÃO FIQUE ESCONDIDO PELA NAVBAR */
+    margin: 0; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: #838080; 
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #e78181; 
+    font-size: 28px;
+}
+
+/* ================================================= */
+/* === ESTILOS DA NAVBAR (Moderna e Fixa) ========== */
+/* ================================================= */
+
+.nav {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    width: 100%; 
+    background-color: #333333; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    z-index: 1000; 
+}
+
+.nav ul {
+    list-style: none;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    padding: 0;
+    margin: 0;
+    height: 50px; 
+}
+
+.nav li {
+    flex-grow: 0;
+    text-align: center;
+}
+
+.nav a {
+    display: flex;
+    align-items: center; 
+    height: 100%; 
+    padding: 0 20px; 
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+/* --- Efeito de Hover (Vermelho) --- */
+.nav a:hover {
+    background-color: #444444; 
+    color: #ffffff;
+    box-shadow: inset 0 -3px 0 0 #e74c3c; /* Barra vermelha */
+}
+
+/* ================================================= */
+/* === ESTILOS DE FORMULÁRIO (CUSTOMIZADOS) ======== */
+/* ================================================= */
+
+/* 💳 Estilo de Card para Fieldsets (Seção Customizada) */
+fieldset {
+    /* Efeito de Card */
+    background-color: #cca9a9; /* Fundo do card customizado */
+    border: 1px solid #ddd;    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 12px;       /* Cantos arredondados customizados */
+    
+    /* Espaçamento */
+    margin-bottom: 25px; 
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 800px;
+    padding: 20px; 
+}
+
+label {
+    display: block;
+    margin: 15px 10px 5px 10px; 
+    font-weight: bold;
+    color: #555;
+}
+
+/* Ajuste na legend para acomodar o título e botões */
+legend {
+    font-weight: bold;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 0 10px;
+    color: #333; 
+    margin-left: -5px; 
+}
+
+.fieldset-content {
+    padding-top: 10px; 
+}
+
+legend h2 {
+    margin: 0; 
+}
+
+/* --- Estilo para o botão de toggle --- */
+.toggle-btn {
+    background-color: #992e0d; /* Cor customizada */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
+
+/* --- Estilo para o botão de fechar (X) --- */
+.close-fieldset-btn {
+    background-color: #dc3545; 
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px; 
+}
+.close-fieldset-btn:hover {
+    background-color: #c82333;
+}
+
+/* --- Estilo para o botão de adicionar fieldset --- */
+.add-fieldset-btn {
+    background-color: #5c0929; /* Cor customizada */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block; 
+    width: 10%;
+    text-align: center;
+}
+.add-fieldset-btn:hover {
+    background-color: #613a49;
+}
+
+/* --- Botão de Cadastro (Submit) --- */
+#cad{
+    background-color: #992e0d; /* Cor customizada */
+    color: white;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    display: block; 
+    margin-left: 45%; /* Posicionamento customizado */
+    cursor: pointer;
+}
+
+/* ================================================= */
+/* === Estilos de Mensagens de Status ============== */
+/* ================================================= */
+
+.mensagem {
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.erro {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+/* ================================================= */
+/* === AJUSTES NO CONTAINER PRINCIPAL (.nav) ======= */
+/* ================================================= */
+
+/* ================================================= */
+/* === AJUSTES NO CONTAINER PRINCIPAL (.nav) ======= */
+/* ================================================= */
+
+.nav {
+    position: fixed; 
+    top: 0; 
+    /* ... */
+    z-index: 1000; /* Garante que fique acima de tudo */
+}
+
+.nav ul {
+    /* ... */
+    height: 50px; /* A altura que define o quanto o body precisa de padding */
+}
+
+/* ================================================= */
+/* === AJUSTES NOS ITENS DA LISTA (LI) ============= */
+/* ================================================= */
+
+.nav li {
+    flex-grow: 0;
+    text-align: center;
+    /* Remove separadores verticais */
+    border-right: none; 
+}
+
+
+/* ================================================= */
+/* === ESTILIZAÇÃO DOS LINKS (A) =================== */
+/* ================================================= */
+
+.nav a {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o texto dentro do link */
+    height: 100%; /* Ocupa a altura total do UL */
+    
+    /* Ajusta o padding para o novo layout horizontal */
+    padding: 0 20px; 
+    
+    color: #ffffff; /* Texto branco */
+    text-decoration: none;
+    font-weight: 500; /* Peso médio */
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* --- Efeitos Dinâmicos (Hover) Moderno --- */
+
+.nav a:hover {
+    background-color: #555555; /* Fundo mais claro no hover */
+    color: #f3f3f3; /* Cor do texto levemente alterada */
+    
+    /* Adiciona um efeito de barra inferior para destacar */
+    box-shadow: inset 0 -3px 0 0 #e74c3c; /* Barra vermelha na parte inferior */
+}
